@@ -21,7 +21,7 @@ type UserQuery = {
 const FindUnique: UserQuery[] = [
   {
     where: {
-      email: "carlosdf035@gmail.com",
+      email: "carlos@gmail.com",
     },
     select: {
       name: true,
@@ -29,14 +29,14 @@ const FindUnique: UserQuery[] = [
   },
   {
     where: {
-      email: "catia@gmail.com",
+      email: "joao@gmail.com",
     },
   },
   {
     where: {
       age_name: {
         age: 19,
-        name: "Catia Fernandes",
+        name: "joao Fernandes",
       },
     },
     select: {
